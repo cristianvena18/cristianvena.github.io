@@ -7,7 +7,7 @@ title: Programming Tricks
 
 Esto es una serie de tips que según mi experiencia me ayudaron a manejar mejor estos cambios recurrentes.
 
-##Comandos o Commands
+## Comandos o Commands
 
 hace un tiempo leí Clean Code y me encontré con algo bastante interesante:
 
@@ -136,7 +136,7 @@ que el dato exista o que por ejemplo sea un número así evito problemas y
 ayudándome de un servicio de validaciones que tiene una interfaz clara y estable. 
 donde no tengo que modificar estos datos jamás
 
-##Una API simple y clara
+## Una API simple y clara
 
 Algo muy común es acoplarnos a una tecnología cuando trabajamos en algún sistema web
 y siempre está la típica de "esto no creo que cambie jamás" pero adivinen qué? cambia 
@@ -145,9 +145,9 @@ y es un dolor de cabeza terrible cambiarlo.
 me ha pasado que por ejemplo en aplicaciones de laravel en donde se hacen las vistas con blade se pasan los modelos directamente de la base de datos a la vista y terminamos teniendo esto:
 
 ```
-    <td>{{ $product->getCode() }}</td>
-    <td>{{ $product->getName() }}</td>
-    <td>{{ $product->getPrice() }}</td>
+    <td> $product->getCode() </td>
+    <td> $product->getName() </td>
+    <td> $product->getPrice() </td>
 ```
 
 y suponiendo que tenemos el requerimiento de cambiar el frontend a vue o 
@@ -225,9 +225,9 @@ class ProductPresenter
 haciendo este pequeño cambio en la vista podemos hacer algo tan simple como:
 
 ```
-    <td>{{ $product->code }}</td>
-    <td>{{ $product->name) }}</td>
-    <td>{{ $product->price }}</td>
+    <td> $product->code </td>
+    <td> $product->name) </td>
+    <td> $product->price </td>
 ```
 
 Así simplificamos la API y la mejoramos dejándola mucho más limpia y fácil de escalar.
