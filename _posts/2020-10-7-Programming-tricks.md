@@ -3,8 +3,6 @@ layout: post
 title: Programming Tricks
 ---
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
 ¿Cuántas veces tuvieron que mantener sistemas legacy o sistemas en cambios recurrentes? sistemas complejos que un día vienen y nos piden que agreguemos atributos o que quitemos en donde es un dolor de cabeza mantener interfaces limpias o claras?
 
 Esto es una serie de tips que según mi experiencia me ayudaron a manejar mejor estos cambios recurrentes.
