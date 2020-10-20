@@ -67,4 +67,4 @@ el método `digitalWrite` lo que hace es cambiar el estado del pin de salida dep
 esto es prender un led, toda la lógica de programación se resume a esto, con la ayuda de bucles, estructuras de validación y estructuras de datos se compone la programación completa y funcional.
 
 cabe aclarar que el método loop funciona como un bucle, en cada ciclo del procesador este se ejecuta una vez
-El programa completo se encuentra en el repositorio de [github](https://github.com/cristianvena18)
+El programa completo se encuentra en el repositorio de [github](https://github.com/cristianvena18/introduction-to-programming/blob/master/firstPost.ino)
