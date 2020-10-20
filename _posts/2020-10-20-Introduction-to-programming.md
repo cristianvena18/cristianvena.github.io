@@ -2,8 +2,6 @@
 layout: post
 title: Introducción a la programación
 ---
-# Introducción a la programación
-
 Muchas personas se asustan cuando quieren comenzar en el mundo de la programación. este miedo es normal porque no saben donde empezar.
 aquí vamos a explicar un poco como funciona esto y explicar de forma muy simple la base de la programación con un simple ejemplo.
 
