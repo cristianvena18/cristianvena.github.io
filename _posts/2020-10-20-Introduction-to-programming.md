@@ -1,3 +1,7 @@
+---
+layout: post
+title: Introducción a la programación
+---
 # Introducción a la programación
 
 Muchas personas se asustan cuando quieren comenzar en el mundo de la programación. este miedo es normal porque no saben donde empezar.
@@ -13,7 +17,7 @@ si traducimos el código binario al estado eléctrico podemos decir que 1 es enc
 sabiendo esto podemos hacer un programa que encienda un led con arduino:
 
 ## Variables
-Variables, que son? que función cumplen? para que las puedo utilizar?
+Que son las variables? que función cumplen? para que las puedo utilizar?
 
 bien, las variables son espacios en memoria ram que estas contienen información de rápido acceso en nuestro programa. dependiendo que lenguaje quieres utilizar estas pueden ser fuertemente tipadas como `C++`, `Java` o incluso el propio `C` o pueden ser dinámicas como `JavaScript`, `PHP` o `Python`
 
